@@ -1,0 +1,16 @@
+<div class="my-3">
+    <div class="card">
+        <h6 class="card-header alert-primary" [ngClass]="{'strike': !todo.active}">
+            Task # {{i+1}}
+        </h6>
+        <div class="card-body">
+            <h5 class="card-title" [ngClass]="{'strike': !todo.active}">{{todo.title}}</h5>
+            <p class="card-text" [ngClass]="{'strike': !todo.active}">{{todo.desc}}</p>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="markAsDone{{i}}" (click)="onCheckboxClick(todo)" [checked]="!todo.active">
+                <label class="form-check-label" for="markAsDone{{i}}">Toggle Complete</label>
+                <button class="btn btn-sm btn-danger ml-4" (click)="onClick(todo)">Delete</button>
+            </div>
+        </div>
+    </div>
+</div>
