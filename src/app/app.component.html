@@ -1,26 +1,30 @@
 <!--  NAVBAR  -->
-
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-color">
-  <a class="navbar-brand link" routerLink="/">To-Do List</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarScroll">
-    <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 100px;">
-      <li class="nav-item">
-        <a class="nav-link link" routerLink="/" routerLinkActive="active">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link link" routerLink="/about" routerLinkActive="active">About</a>
-      </li>
-    </ul>
-    <form class="d-flex">
-      <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-success" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+<header class="header">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-color">
+    <div class="container">
+      <a class="navbar-brand link" routerLink="/">To-Do List</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex">
+        <div class="container">
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll" style="max-height: 150px;">
+          <li class="nav-item">
+            <a class="nav-link link" routerLink="/" routerLinkActive="active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link link" routerLink="/about" routerLinkActive="active">About</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+      </div>
+    </div>
+  </nav>
+</header>
 
 <div class="container mt-5">
-  <router-outlet class="container"></router-outlet>
+  <router-outlet class="container bodybg-color"></router-outlet>
 </div>
