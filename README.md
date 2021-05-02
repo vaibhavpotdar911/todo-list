@@ -16,13 +16,14 @@ The app uses local storage to save the tasks data. Even if you refresh the page,
 
 ## Long-term Scope
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* User-oriented by adding authentication for e-mail and password or Google Authentication.
+* Adding MongoDB or Firebase to store the tasks for a particular user in database.
+* UI/UX updations for crisp display
 
+## Dev-tools
 
+* Angular v11 - [Angular.io](https://angular.io)
+    * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+    * Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-
-#temp
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
-
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* Bootstrap v5 - [Bootstrap](https://getbootstrap.com)
