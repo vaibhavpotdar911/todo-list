@@ -1,15 +1,20 @@
 .bodybg-color {
-
     background-color: #E9EBEE;
-
 }
 
 .bg-color {
-    background-color: #5e98ee;
+    background-color: #E9EBEE;
+}
+
+.brand-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 3rem;
 }
 
 .link {
     margin-left: 15px;
-    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    text-align: center;
     font-weight: bold;
 }
