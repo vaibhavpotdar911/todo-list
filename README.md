@@ -3,7 +3,7 @@
 This is a simple To-do list to make a list of some tasks/items which are supposed to be completed! This code is completely built on Angular v11 and Bootstrap v5.
 
 ## Production Server
-[Working app](https://github.com/vaibhavpotdar911/todo-list/blob/master/working-app.png)
+[Working app](https://vaibhav-images.s3.ap-south-1.amazonaws.com/working-app.png)
 This application is hosted on **AWS S3**. To view the development build of this project head to [Todo List.](http://vaibhav-todolist.s3-website.ap-south-1.amazonaws.com)
 
 ## CI/CD Pipeline
