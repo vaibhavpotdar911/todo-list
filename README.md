@@ -1,27 +1,28 @@
 # TodoList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+This is a simple To-do list to make a list of some tasks/items which are supposed to be completed! This code is completely built on Angular v11 and Bootstrap v5.
 
-## Development server
+## Production Server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This application is hosted on **AWS S3**. To view the development build of this project head to [Todo List.](http://vaibhav-todolist.s3-website.ap-south-1.amazonaws.com)
 
-## Code scaffolding
+## CI/CD Pipeline
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This Todo-List has a *Continuous Integration/Continuous Delivery* `CI/CD Pipeline`. The pipeline is created using **Amazon CodePipeline**. Whenever I push a commit to **Github**, **Amazon CodePipeline** would automatically trigger the fetch command to build the code and deploy it. 
 
-## Build
+## Use of local storage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+The app uses local storage to save the tasks data. Even if you refresh the page, the data is persisted. The tasks you create would not be available on other device.
 
-## Running unit tests
+## Long-term Scope
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#temp
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
+
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
